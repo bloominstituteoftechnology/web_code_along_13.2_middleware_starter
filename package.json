@@ -1,0 +1,8 @@
+{
+  "name": "middleware_starter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloominstituteoftechnology/web_code_along_13.2_middleware_starter.git"
+  }
+}
