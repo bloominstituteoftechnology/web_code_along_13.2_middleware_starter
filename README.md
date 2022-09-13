@@ -8,16 +8,19 @@
 
 ❗ Other browser/Node/NPM configurations might work but haven't been tested.
 
-### Nice to Haves
+### Highly Recommended
 
 - Postman HTTP client or similar.
 - React Devtools & Redux Devtools Chrome extensions.
 
 ## Set Up
 
-1. Clone repo and execute `npm run prep` to install deps and set up your dev database.
-2. Launch the project in a dev server executing `npm run dev`.
-3. Visit your app by navigating Chrome to `http://localhost:3000`.
+1. Clone repo without forking. If you cloned before today, execute `git fetch && git reset --hard origin/main` to get the latest
+2. Execute `npm run prep` to install dependencies and set up your development database
+3. Execute `npm run dev` to launch the project in a dev server
+4. Visit your app by navigating Chrome to `http://localhost:3000`
+
+### Notes About Setup
 
 You can _optionally_ run frontend and backend separately. __Instead__ of `npm run dev`:
 
@@ -40,7 +43,7 @@ You can _optionally_ run frontend and backend separately. __Instead__ of `npm ru
 
 1. `npm test` runs all tests.
 
-### Note About Running Tests
+### Note About Tests
 
 The `test` script kills the development server because tests need to spin up a testing db
 and free port 9000. To restart nodemon just type `rs` in the terminal of the `dev` script,
